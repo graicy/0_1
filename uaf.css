@@ -1,0 +1,13 @@
+			@font-face {
+				font-family: 'Myriad';
+				font-style: normal;
+				src: url("150619115118Myriad.eot");
+				src: local('Myriad'), url("150619115118Myriad.eot") format('embedded-opentype'), url("150619115118Myriad.woff") format('woff');
+			}
+            
+            .Myriad{font-family: 'Myriad' !important;}
+            
+						body, h1, h2, h3, h4, h5, h6, p, blockquote, li, a{
+					font-family: 'Myriad' !important;
+				}
+		

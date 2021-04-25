@@ -1,0 +1,137 @@
+/* Have fun adding your style here :) - PS: At all times this file should contain a comment or a rule, otherwise opera might act buggy :( */
+
+/* General Custom CSS */
+
+#top.page-id-3269 .iconbox_left_content .iconbox_icon {
+	color: #fff;
+	background: #21759B;
+	background: linear-gradient(#004268,#21759B);
+}
+.page-id-3269 .iconbox_left_content .iconbox_content .iconbox_content_title {
+    	margin-top: 10px;
+}
+.page-id-3269#top .iconbox {
+	margin: 30px 0 50px;
+}
+.page-id-3269 .feature-wrapper {
+    font-size: 14px;
+    text-align: justify;
+    
+    display: -webkit-box;
+  		display: -moz-box;
+  			display: -ms-flexbox;
+  				display: -webkit-flex;
+  					display: block;
+}
+.page-id-3269 .feature-wrapper .feature-single {
+	float: left;
+	width: 100%;
+	padding: 0 30px;
+    	border-bottom: 1px solid #ddd;
+    	margin-bottom: 50px;
+    	padding-bottom: 20px;
+}
+
+.page-id-3269 .avia-section.av-minimum-height .container {
+        max-width:100%;
+}
+#top fieldset h3 {
+	text-align:center!important;
+}
+
+
+.page-id-3269 .overlay {
+	position: absolute;
+    	height: 100%;
+    	top: 0;
+    	margin-left: -55px;
+}
+
+.page-id-3269 .feature-wrapper .feature-single .feature-single-img {
+	width:100%;
+	margin-top:20px;
+}
+.page-id-3269 .feature-wrapper > div:last-of-type {
+	border: none;
+}
+.page-id-3269 .feature-wrapper .icon-holder {
+	width: 50px;
+    	height: 50px;
+    	margin: 0 auto;
+    	text-align: center;
+    	font-size: 25px;
+    	background: #21759B;
+    	background: linear-gradient(#004268,#21759B);
+    	color: #fff;
+    	border-top-left-radius: 50%;
+    	border-top-right-radius: 50%;
+    	border-bottom-left-radius: 50px;
+    	border-bottom-right-radius: 50px;
+    	line-height: 50px;
+}
+.page-id-3269 .feature-wrapper ul {
+	margin: 0;
+}
+.page-id-3269 .feature-wrapper ul li {
+	margin: 0;
+	padding-left: 20px;
+	position: relative;
+	list-style-type: none;
+}
+.page-id-3269 .feature-wrapper ul li:before {
+	content: "\f05d";
+	font-family: fontAwesome;
+	position: absolute;
+	top: 3px;
+	left: 0;
+}
+.page-id-3269#top .iconbox.know-how {
+	margin: 0px;
+}
+
+/*
+Desktop Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the desktop view of your site */
+
+@media only screen and (min-width: 768px) {
+  /* Add your Desktop Styles here */
+
+}
+
+
+
+/*
+Mobile Styles
+================================================== */
+/* Note: Add new css to the media query below that you want to only effect the Mobile and Tablet Portrait view */
+
+@media only screen and (max-width: 991px) {
+  	/* Add your Mobile Styles here */
+  	
+}
+@media only screen and (max-width: 767px) {
+	.page-id-3269 .overlay {
+	 	margin-left: -185px;
+	}
+	.page-id-3269 .feature-wrapper {
+		display: block;
+	}
+	.page-id-3269 .feature-wrapper .feature-single {
+		float: none;
+		width: 100%;
+		border-radius: 5px;
+    		border: 1px solid #ddd !important;
+		padding: 15px 15px;
+		margin: 0 auto 30px;
+    		max-width: 400px;
+    	    	box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+	}
+
+}
+@media only screen and (max-width: 420px) {
+	.page-id-3269 .overlay {
+	 	margin-left: -75px;
+	}
+
+}
